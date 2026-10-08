@@ -1,0 +1,11 @@
+create policy "Allow public read courses"
+on public.courses
+for select
+to anon,authenticated
+using (true);
+
+create policy "Allow public insert courses"
+on public.courses
+for insert
+to anon,authenticated
+using (true);

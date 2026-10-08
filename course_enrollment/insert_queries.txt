@@ -1,0 +1,44 @@
+1. Insert Data into the courses Table (6 Courses)
+sql
+INSERT INTO courses (course_id, course_name, description) VALUES
+(101, 'Python Programming', 'Learn Python fundamentals and advanced programming concepts'),
+(102, 'Java Full Stack', 'Learn Java, Spring Boot, Angular and REST APIs'),
+(103, 'Generative AI', 'Learn LLMs, RAG and prompt engineering'),
+(104, 'Agentic AI', 'Learn AI agents, tool calling and multi-agent systems'),
+(105, 'SQL and Database', 'Learn SQL, PostgreSQL and database concepts'),
+(106, 'Machine Learning', 'Learn machine learning algorithms and model development'),
+(107, 'Cloud Computing', 'Learn AWS cloud services and deployment'),
+(108, 'DevOps', 'Learn Docker, Kubernetes and CI/CD');
+
+2. Insert Data into the students Table (5 Students)
+sql
+INSERT INTO students (student_id, student_name) VALUES
+(1, 'Ram'),
+(2, 'Bheem'),
+(3, 'Arjun'),
+(4, 'Kavya'),
+(5, 'Priya'),
+(6, 'Rahul'),
+(7, 'Sneha'),
+(8, 'Vikram');
+
+3. Insert Data into the student_enrollments Table
+
+INSERT INTO student_enrollments
+(enrollment_id, student_id, course_id, enrolled_date)
+VALUES
+(1001, 1, 101, '2026-09-01'),
+(1002, 1, 103, '2026-09-02'),
+(1003, 2, 102, '2026-09-03'),
+(1004, 2, 105, '2026-09-04'),
+(1005, 3, 103, '2026-09-05'),
+(1006, 3, 104, '2026-09-06'),
+(1007, 4, 101, '2026-09-07'),
+(1008, 4, 106, '2026-09-08'),
+(1009, 5, 104, '2026-09-09'),
+(1010, 6, 107, '2026-09-10'),
+(1011, 7, 108, '2026-09-11'),
+(1012, 8, 102, '2026-09-12');
+
+
+ 
